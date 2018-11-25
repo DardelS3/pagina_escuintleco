@@ -17,6 +17,7 @@ body {
 
 .text-platzi{
 	color: rgba(0, 157, 232, 1) !important;
+	font-weight: 900;
 }
 
 .btn-platzi{
@@ -28,10 +29,16 @@ body {
 	background-color: rgba(0, 133, 196, 1);
 }
 
+.carousel-font {
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: rgba(0, 245, 255, 1)
+}
+
 #main .carousel-inner img{
 	object-fit: cover;
 	max-height: 70vh;
-	filter: grayscale(70%);
+	filter: grayscale(20%);
 }
 
 #carousel{
@@ -44,8 +51,7 @@ body {
 	bottom: 0;
 	right: 0;
 	left: 0;
-
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.2);
 	color: #FFF;
 }
 
