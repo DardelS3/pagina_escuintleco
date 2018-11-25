@@ -8,42 +8,49 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="css/nav.css" rel="stylesheet">
 
-    <title>PlatziConf Hawaii - Honolulu 2025</title>
+
+    <title>Técnico Evangélico, Escuintla</title>
   </head>
   <body data-spy="scroll" data-target="#navbar" data-offset="59">
 
     <!-- Header -->
 
     <!-- Navbar -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="assets/images/platzi-logo.png" alt="Platzi Logo">
-            <span style="vertical-align: middle;">Conf Hawaii</span>
+        <a class="navbar-brand" href="index.html">
+            <!-- <img src="assets/images/platzi-logo.png" alt="Platzi Logo"> -->
+            <span style="vertical-align: middle;">Técnico Evangélico</span>
           </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbar">
+        <div class="collapse navbar-collapse topBotomBordersIn" id="navbar">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#main">La conferencia <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Inicio</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#main">Inicio</a>
+                <a class="dropdown-item" href="#speakers">Misión - Vision</a>
+                <a class="dropdown-item" href="#place-time">Another action</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">Los oradores</a>
+              <a class="nav-link" href="#">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#place-time">El lugar y la fechas</a>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#conviertete-en-orador">Convierteté en orador</a>
-            </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#form">Convierteté en orador</a>
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link text-platzi" href="#" data-toggle="modal" data-target="#modalCompra" >Comprar tickets</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -67,10 +74,11 @@
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
-                  <h1>Platzi Conf Hawaii</h1>
-                  <p class="d-none d-md-block">Platzi Conf  llega por primera vez a Hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de os expertos que están creando el futuro de internet. Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                  <a href="#conviertete-en-orador" class="btn btn-outline-light btn-sm"> Quiero ser orador</a>
-                  <button type="button" class="btn btn-platzi btn-sm" data-toggle="modal" data-target="#modalCompra" > Comprar tickets</button>
+                  <h1>Técnico Evangélico</h1>
+                  <p class="d-none d-md-block">
+                    El Técnico Evangélico es una institución privada, nacida en corazón de Dios, autorizado por el Ministerio de Educación según Resolución No. 1421-17
+                    Actualmente es considerada la institución de más sólida prestigio y alto nivel educativo en el área sur del pais, enmarcando la educación integral del educando en el área espiritual, moral intelectual y física.
+                    Se incluye dentro del horario de clases el estudio de la Santa Biblia. Se cuenta con múltiples laboratorios de Computación y la aplicación de diversas tecnologias de información y comunicación (TICS) aplicadas al área educativa, dos talleres de mecánica diesel y gasolina, taller de reparación de computadoras, electricidad, dibujo en construcción, diseño gráfico, laboratorio de biología, química, medicina, piscina cancha techada para el curso de educación física.
                 </div>
               </div>
             </div>
@@ -85,68 +93,29 @@
       <div class="container">
         <div class="row mt-4">
           <div class="col text-center text-uppercase">
-            <small>Conoce a los</small>
-            <h2>Oradores</h2>
           </div>
         </div>
         <div class="row">
-          
-          <div class="col-12 col-sm-6 col-lg-3 col-xl mb-4">
+
+          <div class="col-12 col-sm-6 col-lg-6 col-xl mb-4">
             <div class="card">
               <img class="card-img-top" src="assets/speakers/sacha.jpg" alt="Card image cap">
               <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-warning">Javascript</span>
-                  <span class="badge badge-info">React</span>
-                </div>
-                <h5 class="card-title">Sasha Lifszyc</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title text-center">Misión</h5>
+                <p class="card-text text-justify">Somos un centro educativo privado, cuya misión implica el mejoramiento continuo de la calidad total educativa para el desarrollo humano y económico de la región, asegurando con ello el crecimiento estratégico de la calidad de vida de las comunidades afectadas y el fomento de una auténtica cultura de paz fundamentada en la Santa Biblia.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-lg-3 col-xl mb-4">
+          <div class="col-12 col-sm-6 col-lg-6 col-xl mb-4">
             <div class="card">
               <img class="card-img-top" src="assets/speakers/leonidas2.jpeg" alt="Card image cap">
               <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-warning">Javascript</span>
-                  <span class="badge badge-info">React</span>
-                </div>
-                <h5 class="card-title">Leonidas Esteban</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title text-center">Visión</h5>
+                <p class="card-text text-justify">Ser la institución educativa líder en Guatemala, la cual enseñe y aplique principios bíblicos para prosperidad integral y salvación eterna del ser humanos asegurando con ello la formación de ciudadanos libres con capacidad de liderazgo y toma de decisiones que aseguren soluciones a problemas inherentes de la convivencia humana.</p>
               </div>
             </div>
           </div>
-
-          <div class="col-12 col-sm-6 col-lg-3 col-xl mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/freddy.jpeg" alt="Card image cap">
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-warning">Javascript</span>
-                  <span class="badge badge-info">React</span>
-                </div>
-                <h5 class="card-title">Freddy Vega</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-lg-3 col-xl mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/cvander.jpeg" alt="Card image cap">
-              <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-warning">Javascript</span>
-                  <span class="badge badge-info">React</span>
-                </div>
-                <h5 class="card-title">Christian Van Der H.</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
@@ -156,15 +125,14 @@
     <section id="place-time">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-6 px-0">
-            <img src="assets/images/honolulu.jpg" alt="Honolulu">
-          </div>
           <div class="col-12 col-lg-6 py-4">
-            <h2>Honolulu - Octubre 2025</h2>
+            <h2>Técnico Evangélico</h2>
             <p class="text-justify">
-              Honolulu o Honolulú es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
             </p>
             <a href="https://es.wikipedia.org/wiki/Honolulu" class="btn btn-outline-light">Conoce más</a>
+          </div>
+          <div class="col-12 col-lg-6 px-0">
+            <img src="assets/images/honolulu.jpg" alt="Honolulu">
           </div>
         </div>
       </div>
@@ -172,7 +140,7 @@
     <!-- /Place&Time -->
 
     <!-- Conviertete en Orador -->
-    <section id="conviertete-en-orador" class="py-4">
+    <section id="form" class="py-4">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center text-uppercase">
@@ -187,7 +155,7 @@
         </div>
         <div class="row">
           <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 py-2">
-            
+
             <form>
               <div class="form-row">
                 <div class="form-group col-12 col-md-6">
@@ -261,7 +229,7 @@
             <form action="">
               <div class="form-row">
                 <div class="form-group col">
-                  
+
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="basic-addon1">@</span>

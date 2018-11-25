@@ -2,21 +2,30 @@
 	z-index: 1 !important;
 }
 */
+
+body {
+	background: rgba(255, 183, 60, 0.3);
+}
+
 #header img{
 	width: 80px;
 }
 
+#header {
+	background: #FFA60D;
+}
+
 .text-platzi{
-	color: #97c93e !important;
+	color: rgba(0, 157, 232, 1) !important;
 }
 
 .btn-platzi{
-	background-color: #97c93e;
+	background-color: rgba(0, 157, 232, 1);
 	color: #FFF;
 }
 
 .btn-platzi:hover{
-	background-color: #82ad36;
+	background-color: rgba(0, 133, 196, 1);
 }
 
 #main .carousel-inner img{
@@ -47,7 +56,7 @@
 
 
 #place-time{
-	background-color: #343a40;
+	background-color: rgba(0, 173, 255, 0.7);
 	color: #FFF;
 }
 
@@ -65,5 +74,3 @@
 #footer a{
 	color: #FFF;
 }
-
-
