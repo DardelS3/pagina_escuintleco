@@ -1,10 +1,15 @@
-/*#navbar{
-	z-index: 1 !important;
-}
-*/
 
 body {
 	background: rgba(255, 183, 60, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 15px;
 }
 
 #header img{
@@ -25,6 +30,16 @@ body {
 	color: #FFF;
 }
 
+.centrar-horizontal {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centrar-vertical {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .btn-platzi:hover{
 	background-color: rgba(0, 133, 196, 1);
 }
@@ -33,6 +48,43 @@ body {
 	border-radius: 20px;
 	background-color: rgba(0, 0, 0, 0.75);
 	color: rgba(0, 245, 255, 1)
+}
+
+.footer-abajo {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.rc {
+	font-size: 0.8em;
+	position: relative;
+	top: 20px;
+	margin: 0;
+	color: white;
+}
+
+.panel-selectivo-negro {
+	padding: 15px;
+	border: 1px dotted black;
+	border-radius: 10px;
+	max-height: 112px;
+}
+
+.panel-selectivo-rojo {
+	padding: 15px;
+	border: 1px dotted red;
+	border-radius: 10px;
+	max-height: 140px;
+}
+
+.btn-llamar {
+	background-color: rgba(0, 191, 6, 1);
+	color: white;
+}
+
+.mapa {
+	border:1px solid black;
 }
 
 #main .carousel-inner img{
